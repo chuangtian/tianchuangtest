@@ -34,6 +34,9 @@
         "text",
         "button"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
