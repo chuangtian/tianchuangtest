@@ -104,7 +104,8 @@
         "template--17996650053909__1875883a-26ba-4b99-885b-ae81029825a8-167705129070634687-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
