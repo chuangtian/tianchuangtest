@@ -26,6 +26,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "accent-1",
         "logo_position": "middle-left",
