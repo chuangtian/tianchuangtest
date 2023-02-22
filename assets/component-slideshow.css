@@ -15,7 +15,6 @@ slideshow-component .slideshow.banner {
   flex-wrap: nowrap;
   margin: 0;
   gap: 0;
-  margin-top: 121px;
 }
 
 .slideshow__slide {
