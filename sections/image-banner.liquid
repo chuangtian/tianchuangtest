@@ -36,7 +36,7 @@
 >
 
   <script>
-    console.log("{{ section.settings.desktop_content_position }}");
+    console.log("{{ section.settings.tianchuang }}");
     
   </script>
   {%- if section.settings.image != blank -%}
@@ -160,6 +160,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
+    },
+    {
+      "type": "text",
+      "id": "tianchuang",
+      "label": "t:sections.image-banner.settings.tianchuang.label"
     },
     {
       "type": "image_picker",
