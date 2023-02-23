@@ -84,6 +84,7 @@
           "type": "heading",
           "settings": {
             "heading": "Imageadsadad with text1111111",
+            "heading_color": "#88ab44",
             "heading_size": "h1"
           }
         },
