@@ -7,6 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner6666",
+            "heading_color": "#334fb4",
             "heading_size": "h0"
           }
         },
@@ -84,7 +85,6 @@
           "type": "heading",
           "settings": {
             "heading": "Imageadsadad with text1111111",
-            "heading_color": "#88ab44",
             "heading_size": "h1"
           }
         },
@@ -172,6 +172,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner",
+            "heading_color": "#ab4444",
             "heading_size": "h1"
           }
         },
@@ -209,7 +210,6 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "tianchuang": "woshide",
         "show_text_below": true
       }
     }
