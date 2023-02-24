@@ -266,6 +266,16 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "73d9b39f-5dcc-4fa4-ad9d-033da2704edf": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -274,6 +284,7 @@
     "1875883a-26ba-4b99-885b-ae81029825a8",
     "4ceec9c9-5fb6-4001-b4d5-2cea95e56a9a",
     "03ce073d-d675-4eb8-aa3c-2cf2ea57174e",
-    "977c702f-907f-4f92-ab45-ee07c7b48bfe"
+    "977c702f-907f-4f92-ab45-ee07c7b48bfe",
+    "73d9b39f-5dcc-4fa4-ad9d-033da2704edf"
   ]
 }
