@@ -1,18 +1,19 @@
-{%- style -%}
-    {%- if section.settings.color_scheme == 'background-111' -%}
-      .color-background-111 {
-        --color-foreground: var(--color-base-text);
-        --color-background: var(--color-base-background-2);
-        background:#5c6ac4;
-      }
-    {%- endif -%}
-{%- endstyle -%}
+
 
 
 
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
+      {%- style -%}
+          {%- if block.settings.color_scheme == 'background-111' -%}
+            .color-background-111 {
+              --color-foreground: var(--color-base-text);
+              --color-background: var(--color-base-background-2);
+              background:#5c6ac4;
+            }
+          {%- endif -%}
+      {%- endstyle -%}
       <div class="announcement-bar   color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         <script>
           console.log("{{ block.settings.text }}")
