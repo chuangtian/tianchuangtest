@@ -5,6 +5,7 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
+      {% comment %} 
       {%- style -%}
           {%- if block.settings.color_scheme == 'background-111' -%}
             .color-background-111 {
@@ -13,11 +14,12 @@
               background:#5c6ac4;
             }
           {%- endif -%}
-      {%- endstyle -%}
+      {%- endstyle -%} 
+    {% endcomment %}
       <div class="announcement-bar   color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-        <script>
+        {% comment %} <script>
           console.log("{{ block.settings.text }}")
-        </script>
+        </script> {% endcomment %}
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
