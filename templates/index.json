@@ -8,7 +8,8 @@
           "settings": {
             "heading": "Image banner66664444",
             "heading_color": "#334fb4",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "heading_size_tian": "t2"
           }
         },
         "text": {
@@ -133,7 +134,8 @@
           "settings": {
             "heading": "Image banner",
             "heading_color": "#ab4444",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_size_tian": "t1"
           }
         },
         "template--17996650053909__4ceec9c9-5fb6-4001-b4d5-2cea95e56a9a-167711997492818e95-1": {
@@ -181,7 +183,8 @@
           "settings": {
             "heading": "Image banner",
             "heading_color": "#ab4444",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_size_tian": "t1"
           }
         },
         "template--17996650053909__03ce073d-d675-4eb8-aa3c-2cf2ea57174e-1677238694dc0e5cea-1": {
@@ -228,7 +231,8 @@
           "settings": {
             "heading": "Image banner",
             "heading_color": "#ab4444",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_size_tian": "t1"
           }
         },
         "template--17996650053909__977c702f-907f-4f92-ab45-ee07c7b48bfe-1677238694dc0e5cea-1": {
