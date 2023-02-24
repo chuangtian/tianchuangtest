@@ -99,10 +99,6 @@
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         
-        <script>
-          console.log("{{ block.heading_color }}");
-          
-        </script>
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2 class="banner__heading {{ block.settings.heading_size }} " {{ block.shopify_attributes }} style="color:{{ block.settings.heading_color }}">
