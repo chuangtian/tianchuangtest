@@ -21,7 +21,7 @@
             }
       {%- endstyle -%} 
 
-      <div class="announcement-bar   color-{{ block.settings.color_scheme }}  {{ block.settings.fixed_top }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+      <div id="get-height" class="announcement-bar   color-{{ block.settings.color_scheme }}  {{ block.settings.fixed_top }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {% comment %} <script>
           console.log("{{ block.settings.text }}")
         </script> {% endcomment %}
@@ -46,7 +46,8 @@
 {%- endfor -%}
 <script>
   window.addEventListener('resize', function() {
-    console.log($(".announcement-bar").height();)
+    var clientHeight = document.getElementById('get-height').clientHeight;
+    console.log(clientHeight)
   })
 
   
