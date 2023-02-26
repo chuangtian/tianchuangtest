@@ -13,9 +13,14 @@
               /* background:#5c6ac4; */
             }
           {%- endif -%}
+
+          .regular {
+            position: fixed;
+            top: 0;
+            }
       {%- endstyle -%} 
 
-      <div class="announcement-bar   color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+      <div class="announcement-bar   color-{{ block.settings.color_scheme }}  {{ block.settings.fixed_top }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {% comment %} <script>
           console.log("{{ block.settings.text }}")
         </script> {% endcomment %}
@@ -106,6 +111,22 @@
           ],
           "default": "accent-1",
           "label": "t:sections.all.colors.label"
+        },
+        {
+          "type": "select",
+          "id": "fixed_top",
+          "options": [
+            {
+              "value": "regular",
+              "label": "固定"
+            },
+            {
+              "value": "unset",
+              "label": "不固定"
+            }
+          ],
+          "default": "unset",
+          "label": "不固定"
         },
         {
           "type": "url",
