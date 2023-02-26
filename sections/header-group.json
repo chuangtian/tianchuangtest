@@ -11,6 +11,7 @@
             "text": "Welcome to our store1111",
             "text_alignment": "center",
             "color_scheme": "background-3",
+            "fixed_top": "regular",
             "link": ""
           }
         }
