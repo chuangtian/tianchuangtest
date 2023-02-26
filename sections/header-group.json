@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store1111",
+            "text": "Welcome to our store1111<a href=\"www.baidu.com\">111<\/a>",
             "text_alignment": "center",
             "color_scheme": "background-3",
             "link": ""
