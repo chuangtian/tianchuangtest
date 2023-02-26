@@ -44,14 +44,14 @@
       </div>
   {%- endcase -%}
 {%- endfor -%}
-<script>
+{% comment %} <script>
   window.addEventListener('resize', function() {
     var clientHeight = document.getElementById('get-height').clientHeight;
     console.log(clientHeight)
   })
 
   
-</script>
+</script> {% endcomment %}
 
 
 {% schema %}
