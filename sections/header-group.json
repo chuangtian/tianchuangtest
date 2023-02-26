@@ -9,8 +9,8 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store1111",
-            "text_alignment": "left",
-            "color_scheme": "background-2",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
             "link": ""
           }
         }
