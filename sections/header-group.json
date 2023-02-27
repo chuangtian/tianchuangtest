@@ -28,7 +28,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        "nav {color: #fff;}"
       ],
       "settings": {
         "color_scheme": "background-1",
