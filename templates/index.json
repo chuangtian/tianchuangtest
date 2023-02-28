@@ -232,19 +232,30 @@
         "padding_bottom": 36
       }
     },
-    "73695264-f4af-4020-97d5-7534b85698af": {
+    "f1a7ff0a-4642-4d8d-97c8-17891ab75325": {
       "type": "swiper",
+      "blocks": {
+        "94800220-5575-43c9-8262-1f31d3a46c96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-up-against-a-green-background.jpg",
+            "image_link": "",
+            "tab_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "94800220-5575-43c9-8262-1f31d3a46c96"
+      ],
       "settings": {
-        "color_bg": "{{ shop.brand.colors.primary[1].background }}",
-        "nav_color_bg_active": "#212a61",
-        "title": "8790790",
-        "text": "7980789",
+        "title": "",
+        "text": "",
         "enlarge_title": false,
         "enlarge_text": false,
-        "image_position": "top center",
+        "image_position": "center center",
         "height": "adapt",
-        "height_desktop": 1000,
-        "height_mobile": 400
+        "height_desktop": 600,
+        "height_mobile": 500
       }
     }
   },
@@ -255,6 +266,6 @@
     "03ce073d-d675-4eb8-aa3c-2cf2ea57174e",
     "977c702f-907f-4f92-ab45-ee07c7b48bfe",
     "73d9b39f-5dcc-4fa4-ad9d-033da2704edf",
-    "73695264-f4af-4020-97d5-7534b85698af"
+    "f1a7ff0a-4642-4d8d-97c8-17891ab75325"
   ]
 }
