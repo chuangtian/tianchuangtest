@@ -243,15 +243,25 @@
     },
     "196ee15f-7332-43f2-89b0-3d9431bda4c9": {
       "type": "swiper",
+      "blocks": {
+        "7d5e702b-7584-4e34-8c4f-8606b3815b12": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-up-against-a-green-background.jpg",
+            "image_link": "",
+            "tab_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d5e702b-7584-4e34-8c4f-8606b3815b12"
+      ],
       "settings": {
         "title": "",
         "text": "",
         "enlarge_title": false,
         "enlarge_text": false,
-        "image_position": "center center",
-        "height": "adapt",
-        "height_desktop": 600,
-        "height_mobile": 500
+        "image_position": "center center"
       }
     }
   },
