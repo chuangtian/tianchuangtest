@@ -67,6 +67,21 @@
         "show_text_below": false
       }
     },
+    "7c23f02e-b0dd-44e9-8ec6-e9a68c603dfb": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-up-against-a-green-background.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -303,6 +318,7 @@
   "order": [
     "image_banner",
     "f311d68c-94d3-4b04-b849-2a618f0553a6",
+    "7c23f02e-b0dd-44e9-8ec6-e9a68c603dfb",
     "featured_collection",
     "1875883a-26ba-4b99-885b-ae81029825a8",
     "4ceec9c9-5fb6-4001-b4d5-2cea95e56a9a",
