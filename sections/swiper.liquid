@@ -74,7 +74,6 @@
      <div class="swiper-slide">
       <div class="txt">
        <p class="rte" style="color: {{ block.settings.tab_title_color }}">{{ block.settings.tab_title }}</p>
-       <a href="{{ block.settings.tab_color }}"></a>
 
        {% if block.settings.image_link != '' %}
         <a class="image_href content" style="color: {{ block.settings.tab_title_color }}" href="{{ block.settings.image_link }}">{{ block.settings.tab_content }}</a>
@@ -190,7 +189,7 @@
      },
      {
       "type": "text",
-      "id": "tab_txt",
+      "id": "tab_content",
       "label": "Tab Content"
      },
      {
