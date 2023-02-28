@@ -18,9 +18,8 @@
   .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 1065px;
-  max-height: 561px;
-  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
   }
 
   .swiper-slide img {
@@ -143,10 +142,7 @@
              style="background-position: {{ section.settings.image_position }}">
          <div class="rimage-wrapper"
               style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
-          <noscript>
-           <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}"
-                class="rimage__image">
-          </noscript>
+          <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
          </div>
         </div>
        {% endif %}
