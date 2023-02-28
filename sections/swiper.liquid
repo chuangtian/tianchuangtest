@@ -41,11 +41,21 @@
   object-fit: cover;
   }
 
-  .rte {
+  .txt {
   position: absolute;
-  font-size: 25px;
+  top: 17%;
+  }
+
+  .rte {
+  margin-bottom: 10px;
+  font-size: 36px;
   font-weight: bold;
-  top: 35%;
+  }
+  .image_href:hover {
+  text-decoration: underline;
+  }
+  .content {
+   font-size: 18px;
   }
  {% endstyle %}
 
@@ -62,9 +72,19 @@
    <div class="swiper-wrapper">
     {% for block in section.blocks %}
      <div class="swiper-slide">
-      <div class="rte" style="color: {{ block.settings.tab_color }}">
-       {{ block.settings.tab_name }}
+      <div class="txt">
+       <p class="rte" style="color: {{ block.settings.tab_title_color }}">{{ block.settings.tab_title }}</p>
+       <a href="{{ block.settings.tab_color }}"></a>
+
+       {% if block.settings.image_link != '' %}
+        <a class="image_href content" style="color: {{ block.settings.tab_title_color }}" href="{{ block.settings.image_link }}">{{ block.settings.tab_content }}</a>
+       {% endif %}
+
+       {% if block.settings.image_link == '' %}
+        <p style="color: {{ block.settings.tab_content_color }}" class="content">{{ block.settings.tab_content }}</p>
+       {% endif %}
       </div>
+
       <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
      </div>
     {% endfor %}
@@ -165,18 +185,23 @@
      },
      {
       "type": "text",
-      "id": "tab_name",
-      "label": "Tab name"
+      "id": "tab_title",
+      "label": "Tab Title"
+     },
+     {
+      "type": "text",
+      "id": "tab_txt",
+      "label": "Tab Content"
      },
      {
       "type": "color",
-      "id": "tab_color",
-      "label": "Font Color"
+      "id": "tab_title_color",
+      "label": "Font Title Color"
      },
      {
-      "type": "size",
-      "id": "tab_size",
-      "label": "Font Size"
+      "type": "color",
+      "id": "tab_content_color",
+      "label": "Font Content Color"
      }
     ]
    }
