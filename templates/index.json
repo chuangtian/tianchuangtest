@@ -41,7 +41,22 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "f311d68c-94d3-4b04-b849-2a618f0553a6": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -163,7 +178,7 @@
         "template--17996650053909__4ceec9c9-5fb6-4001-b4d5-2cea95e56a9a-167711997492818e95-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
+        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -287,6 +302,7 @@
   },
   "order": [
     "image_banner",
+    "f311d68c-94d3-4b04-b849-2a618f0553a6",
     "featured_collection",
     "1875883a-26ba-4b99-885b-ae81029825a8",
     "4ceec9c9-5fb6-4001-b4d5-2cea95e56a9a",
