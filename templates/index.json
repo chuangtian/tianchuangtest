@@ -1,20 +1,5 @@
 {
   "sections": {
-    "7c23f02e-b0dd-44e9-8ec6-e9a68c603dfb": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-up-against-a-green-background.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -247,59 +232,29 @@
         "padding_bottom": 36
       }
     },
-    "9bfdc167-cb32-418d-a1dd-6f6553534279": {
+    "73695264-f4af-4020-97d5-7534b85698af": {
       "type": "swiper",
-      "blocks": {
-        "6c8cb1c5-3c00-4f55-88fc-90afacb262df": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "tab_name": ""
-          }
-        },
-        "07d58f6b-052c-4d52-ac7b-e6e1fc31f5a1": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "tab_name": ""
-          }
-        },
-        "b460e5d1-af78-460b-8d80-72c8826c3839": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
-            "image_link": "",
-            "tab_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "6c8cb1c5-3c00-4f55-88fc-90afacb262df",
-        "07d58f6b-052c-4d52-ac7b-e6e1fc31f5a1",
-        "b460e5d1-af78-460b-8d80-72c8826c3839"
-      ],
       "settings": {
-        "color_bg": "#000",
-        "nav_color_bg_active": "#3a53e7",
-        "title": "",
-        "text": "",
+        "color_bg": "{{ shop.brand.colors.primary[1].background }}",
+        "nav_color_bg_active": "#212a61",
+        "title": "8790790",
+        "text": "7980789",
         "enlarge_title": false,
         "enlarge_text": false,
-        "image_position": "center center",
+        "image_position": "top center",
         "height": "adapt",
-        "height_desktop": 600,
-        "height_mobile": 500
+        "height_desktop": 1000,
+        "height_mobile": 400
       }
     }
   },
   "order": [
-    "7c23f02e-b0dd-44e9-8ec6-e9a68c603dfb",
     "featured_collection",
     "1875883a-26ba-4b99-885b-ae81029825a8",
     "4ceec9c9-5fb6-4001-b4d5-2cea95e56a9a",
     "03ce073d-d675-4eb8-aa3c-2cf2ea57174e",
     "977c702f-907f-4f92-ab45-ee07c7b48bfe",
     "73d9b39f-5dcc-4fa4-ad9d-033da2704edf",
-    "9bfdc167-cb32-418d-a1dd-6f6553534279"
+    "73695264-f4af-4020-97d5-7534b85698af"
   ]
 }
