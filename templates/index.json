@@ -283,21 +283,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "11029fb6-6f3e-4d6c-8b3f-262c46464d79": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -307,7 +292,6 @@
     "4ceec9c9-5fb6-4001-b4d5-2cea95e56a9a",
     "03ce073d-d675-4eb8-aa3c-2cf2ea57174e",
     "977c702f-907f-4f92-ab45-ee07c7b48bfe",
-    "73d9b39f-5dcc-4fa4-ad9d-033da2704edf",
-    "11029fb6-6f3e-4d6c-8b3f-262c46464d79"
+    "73d9b39f-5dcc-4fa4-ad9d-033da2704edf"
   ]
 }
