@@ -61,11 +61,9 @@
    <div class="swiper-wrapper">
     {% for block in section.blocks %}
      <div class="swiper-slide">
-      {% if section.settings.text != blank %}
-       <div class="rte {% if section.settings.enlarge_text %}large-text{% endif %}">
-        {{ section.settings.text }}
-       </div>
-      {% endif %}
+      <div class="rte {% if section.settings.enlarge_text %}large-text{% endif %}">
+       {{ section.settings.text }}
+      </div>
       <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
      </div>
     {% endfor %}
