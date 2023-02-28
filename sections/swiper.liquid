@@ -306,50 +306,49 @@
  }
  {% endschema %}
 </div>
-<script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
- <script>
-  window.onload = function () {
-   let swiper = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    direction: "vertical",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    initialSlide: 1,
-    spaceBetween: '4%',
-    coverflowEffect: {
-     rotate: 50,
-     stretch: 0,
-     depth: 100,
-     modifier: 1,
-     slideShadows: true,
-    },
-    navigation: {
-     nextEl: '.swiper-button-next',
-     prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-     el: ".swiper-pagination",
-     clickable: true,
-     type: 'custom',
-     renderCustom: function (swiper, current, total) {
-      var paginationHtml = " ";
-      var navName = ['Leather', 'Plywood', 'Acrylic', 'Paper', 'Rubber', 'Food', 'Rock', 'Metal'];
-      for (var i = 0; i < total; i++) {
-       // 判断是不是激活焦点，是的话添加active类，不是就只添加基本样式类
-       if (i === (current - 1)) {
-        paginationHtml +=
-         '<span class="swiper-pagination-customs swiper-pagination-customs-active" >' +
-         navName[i] + '</span>';
-       } else {
-        paginationHtml += '<span class="swiper-pagination-customs" >' + navName[i] +
-         '</span>';
-       }
+<script>
+ window.onload = function () {
+  let swiper = new Swiper(".mySwiper", {
+   effect: "coverflow",
+   direction: "vertical",
+   grabCursor: true,
+   centeredSlides: true,
+   slidesPerView: "auto",
+   initialSlide: 1,
+   spaceBetween: '4%',
+   coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+   },
+   navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+   },
+   pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    type: 'custom',
+    renderCustom: function (swiper, current, total) {
+     var paginationHtml = " ";
+     var navName = ['Leather', 'Plywood', 'Acrylic', 'Paper', 'Rubber', 'Food', 'Rock', 'Metal'];
+     for (var i = 0; i < total; i++) {
+      // 判断是不是激活焦点，是的话添加active类，不是就只添加基本样式类
+      if (i === (current - 1)) {
+       paginationHtml +=
+        '<span class="swiper-pagination-customs swiper-pagination-customs-active" >' +
+        navName[i] + '</span>';
+      } else {
+       paginationHtml += '<span class="swiper-pagination-customs" >' + navName[i] +
+        '</span>';
       }
-      return paginationHtml;
+     }
+     return paginationHtml;
 
-     },
     },
-   });
-  }
- </script>
+   },
+  });
+ }
+</script>
