@@ -287,6 +287,7 @@
     "11029fb6-6f3e-4d6c-8b3f-262c46464d79": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
