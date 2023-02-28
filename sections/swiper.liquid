@@ -62,7 +62,7 @@
    <div class="swiper-wrapper">
     {% for block in section.blocks %}
      <div class="swiper-slide">
-      <div class="rte" style="color {{ block.settings.tab_color }}">
+      <div class="rte" style="color: {{ block.settings.tab_color }}">
        {{ block.settings.tab_name }}
       </div>
       <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
