@@ -127,7 +127,6 @@
   {% endif %}
 
   <div class="swiper mySwiper">
-   <div class="swiper-pagination"></div>
    <div class="swiper-wrapper">
     {% for block in section.blocks %}
      <div class="swiper-slide">
@@ -140,8 +139,7 @@
              data-sizes="auto"
              data-parent-fit="cover"
              style="background-position: {{ section.settings.image_position }}">
-         <div class="rimage-wrapper"
-              style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
+         <div class="rimage-wrapper">
           <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
          </div>
         </div>
@@ -283,28 +281,6 @@
    navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-   },
-   pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    type: 'custom',
-    renderCustom: function (swiper, current, total) {
-     var paginationHtml = " ";
-     var navName = ['Leather', 'Plywood', 'Acrylic', 'Paper', 'Rubber', 'Food', 'Rock', 'Metal'];
-     for (var i = 0; i < total; i++) {
-      // 判断是不是激活焦点，是的话添加active类，不是就只添加基本样式类
-      if (i === (current - 1)) {
-       paginationHtml +=
-        '<span class="swiper-pagination-customs swiper-pagination-customs-active" >' +
-        navName[i] + '</span>';
-      } else {
-       paginationHtml += '<span class="swiper-pagination-customs" >' + navName[i] +
-        '</span>';
-      }
-     }
-     return paginationHtml;
-
-    },
    },
   });
  }
