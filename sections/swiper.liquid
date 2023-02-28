@@ -235,12 +235,18 @@
     ]
    },
    {
-    "type": "image",
-    "id": "Image",
+    "type": "select",
+    "id": "image_position",
     "label": "Image alignment",
     "info": "Used to keep the subject of your image in view",
     "default": "center center",
     "options": [
+  ],
+  "blocks": [
+   {
+    "type": "image",
+    "name": "Image",
+    "settings": [
      {
       "type": "image_picker",
       "id": "image",
