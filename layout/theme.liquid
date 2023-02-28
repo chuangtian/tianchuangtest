@@ -249,8 +249,10 @@
 
     {% sections 'header-group' %}
 
-     {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-     {{ 'swiper-bundle.min.js' | asset_url | stylesheet_tag }}
+     {%- if template.name == 'index' -%}
+       {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+       {{ 'swiper-bundle.min.js' | asset_url | stylesheet_tag }}
+     {%- endif -%}
     
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
