@@ -321,6 +321,7 @@
  <script>
   var swiper = new Swiper(".mySwiper", {
    effect: "coverflow",
+   direction: "vertical",
    grabCursor: true,
    centeredSlides: true,
    slidesPerView: "auto",
@@ -360,11 +361,5 @@
     },
    },
   });
-
-  //点击分页器跳转到对应页面
-  $(".swiper-pagination").on("click", "span", function () {
-   var index = $(this).index();
-   swiper.slideTo(index);
-  })
  </script>
 </div>
