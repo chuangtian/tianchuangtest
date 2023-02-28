@@ -249,7 +249,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-up-against-a-green-background.jpg",
             "image_link": "",
-            "tab_name": "123123"
+            "tab_name": "123123",
+            "tab_color": "#ffffff"
           }
         },
         "c02f023a-933d-478c-baca-97620859e6d6": {
@@ -257,7 +258,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
             "image_link": "",
-            "tab_name": ""
+            "tab_name": "",
+            "tab_color": "#ffffff"
           }
         }
       },
