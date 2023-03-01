@@ -75,7 +75,6 @@
       <div class="txt">
        <p class="rte" style="color: {{ block.settings.tab_title_color }}">{{ block.settings.tab_title }}</p>
 
-       {{ block.settings.image_link }}
        {% if block.settings.image_link != '' %}
         <a class="image_href content" style="color: {{ block.settings.tab_title_color }}" href="{{ block.settings.image_link }}">{{ block.settings.tab_content }}</a>
        {% endif %}
@@ -221,7 +220,7 @@
    mousewheel: true,
    speed: 1500,
    freeMode: false,
-   allowTouchMove: false
+   allowTouchMove: !(typeof window.orientation !== 'undefined')
   });
  }
 </script>
