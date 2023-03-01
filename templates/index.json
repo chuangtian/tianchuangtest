@@ -256,7 +256,8 @@
             "button_title_1": "Order Now",
             "button_title_2": "Learn More",
             "button_href_1": "",
-            "button_href_2": ""
+            "button_href_2": "",
+            "footer": "234523452345"
           }
         },
         "c02f023a-933d-478c-baca-97620859e6d6": {
@@ -271,7 +272,8 @@
             "button_title_1": "",
             "button_title_2": "",
             "button_href_1": "",
-            "button_href_2": ""
+            "button_href_2": "",
+            "footer": ""
           }
         },
         "5f90121c-c0a6-4406-95ff-3335dd2e40fb": {
@@ -286,7 +288,8 @@
             "button_title_1": "",
             "button_title_2": "",
             "button_href_1": "",
-            "button_href_2": ""
+            "button_href_2": "",
+            "footer": ""
           }
         }
       },
