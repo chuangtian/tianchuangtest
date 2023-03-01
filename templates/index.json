@@ -252,7 +252,11 @@
             "tab_title": "123123123",
             "tab_content": "kkkkkkkkk",
             "tab_title_color": "",
-            "tab_content_color": ""
+            "tab_content_color": "",
+            "button_title_1": "Order Now",
+            "button_title_2": "Learn More",
+            "button_href_1": "",
+            "button_href_2": ""
           }
         },
         "c02f023a-933d-478c-baca-97620859e6d6": {
@@ -263,7 +267,11 @@
             "tab_title": "我是标题",
             "tab_content": "123123",
             "tab_title_color": "#e22120",
-            "tab_content_color": "#ffffff"
+            "tab_content_color": "#ffffff",
+            "button_title_1": "",
+            "button_title_2": "",
+            "button_href_1": "",
+            "button_href_2": ""
           }
         },
         "5f90121c-c0a6-4406-95ff-3335dd2e40fb": {
@@ -274,7 +282,11 @@
             "tab_title": "",
             "tab_content": "",
             "tab_title_color": "",
-            "tab_content_color": ""
+            "tab_content_color": "",
+            "button_title_1": "",
+            "button_title_2": "",
+            "button_href_1": "",
+            "button_href_2": ""
           }
         }
       },
@@ -284,11 +296,6 @@
         "5f90121c-c0a6-4406-95ff-3335dd2e40fb"
       ],
       "settings": {
-        "title": "",
-        "text": "",
-        "enlarge_title": false,
-        "enlarge_text": false,
-        "image_position": "center center"
       }
     }
   },
