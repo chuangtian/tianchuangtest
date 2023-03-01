@@ -63,10 +63,10 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 20px;
+  bottom: 110px;
   }
 
-  .button a {
+  .swiper-button a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,12 +74,13 @@
    padding: 24px 4px;
    height: 26px;
    border-radius: 6px;
+  box-sizing: border-box;
   }
-  .button a:nth-of-type(1) {
+  .swiper-button a:nth-of-type(1) {
    background-color: rgba(0, 0, 0, .8);
    color: #fff;
   }
-  .button a:nth-of-type(2) {
+  .swiper-button a:nth-of-type(2) {
   background-color: rgba(255, 255, 255, .8);
   color: #000;
   margin-left: 15px;
@@ -113,7 +114,7 @@
 
       <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.image.alt | escape }}" class="rimage__image">
 
-      <div class="button">
+      <div class="swiper-button">
        {% if block.settings.button_title_1 != blank %}
         <a target="_blank" href="{{ block.settings.button_href_1 }}">{{ block.settings.button_title_1 }}</a>
        {% endif %}
