@@ -75,11 +75,11 @@
       <div class="txt">
        <p class="rte" style="color: {{ block.settings.tab_title_color }}">{{ block.settings.tab_title }}</p>
 
-       {% if block.settings.image_link != '' %}
+       {% if block.settings.image_link != blank %}
         <a class="image_href content" style="color: {{ block.settings.tab_title_color }}" href="{{ block.settings.image_link }}">{{ block.settings.tab_content }}</a>
        {% endif %}
 
-       {% if block.settings.image_link == '' %}
+       {% if block.settings.image_link == blank %}
         <p style="color: {{ block.settings.tab_content_color }}" class="content">{{ block.settings.tab_content }}</p>
        {% endif %}
       </div>
