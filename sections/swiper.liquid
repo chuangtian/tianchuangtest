@@ -63,12 +63,12 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 110px;
+  bottom: 120px;
   }
 
   .swiper_footer {
   position: absolute;
-  bottom: 120px;
+  bottom: 100px;
   color: #fff;
   font-size: 13px
   }
@@ -130,11 +130,11 @@
        {% if block.settings.button_title_2 != blank %}
         <a target="_blank" href="{{ block.settings.button_href_2 }}">{{ block.settings.button_title_2 }}</a>
        {% endif %}
-
-       {% if block.settings.footer != blank %}
-        <p class="swiper_footer" >{{ block.settings.footer }}</p>
-       {% endif %}
       </div>
+
+      {% if block.settings.footer != blank %}
+       <p class="swiper_footer" >{{ block.settings.footer }}</p>
+      {% endif %}
      </div>
     {% endfor %}
    </div>
