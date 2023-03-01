@@ -220,7 +220,7 @@
    mousewheel: true,
    speed: 1500,
    freeMode: false,
-   allowTouchMove: !(typeof window.orientation !== 'undefined')
+   allowTouchMove: /Mobi|Android|iPhone/i.test(navigator.userAgent)
   });
  }
 </script>
