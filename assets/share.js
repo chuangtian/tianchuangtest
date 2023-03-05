@@ -2,7 +2,6 @@ if (!customElements.get('share-button')) {
   customElements.define('share-button', class ShareButton extends DetailsDisclosure {
     constructor() {
       super();
-      
 
       this.elements = {
         shareButton: this.querySelector('button'),
