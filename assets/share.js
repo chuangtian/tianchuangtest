@@ -3,6 +3,7 @@ if (!customElements.get('share-button')) {
     constructor() {
       super();
 
+
       this.elements = {
         shareButton: this.querySelector('button'),
         shareSummary: this.querySelector('summary'),
